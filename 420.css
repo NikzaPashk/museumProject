@@ -1,0 +1,339 @@
+#header{
+    height: 634px;    
+}
+.contaner,.contaner_art,.exposition,.contaner_picture,.container_buy_tickets,.video_journey__exposition{
+    width: 380px;
+}
+.header_menu{ 
+    height: 90px;
+    width: 380px;  
+}
+.header_description__img{
+    display: block;
+    height:285px;
+    width: 380px;
+    margin-top: 50px;
+}
+#header_img{
+   display: none;
+}
+
+.header_menu__list{
+    display: none;
+}
+.header_menu__knopka {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header_description{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;    
+}
+.contaner_description{
+    gap: 25px;
+    align-items: center;   
+    margin-top: 5px;
+    position:static;
+    width: 380px;    
+}
+.contaner_description>input{
+    display: none;
+}
+.header_description__title,.picture_description__title,.exposition_title,.video_description__title,.art_title{
+    line-height: 40px;
+    font-size: 28px;  
+}
+.description_title__text{
+    line-height: 18.75px;
+    font-size: 16px;  
+}
+.header_menu__logo{
+    margin-top: 0px;
+}
+.header_description__title{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#virtual_tour{
+    height: 2153px;
+}
+.exposition_menu__item>img{
+    width:280px ;
+    height:180px ;
+}
+.exposition_title{
+    padding-bottom: 20px;  
+}
+.exposition_menu{
+    justify-content:center;
+    gap: 0px; 
+
+}
+.exposition_menu__item{
+    margin-top: 40px; 
+}
+.menu_item__link>a{
+    line-height: 19.87px;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+.menu_item__text1{
+    line-height: 18.75px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.menu_item__text2{
+    line-height: 18.75px;
+    font-size: 16px;
+    
+}
+.menu_item__link>hr{
+    width:150px;
+
+}
+.exposition{
+    height:2073px ;
+}
+.menu_logo__title{
+    font-size: 16px;
+    line-height: 17.66px;
+    margin-top: 3px;
+}
+.menu_logo__img>svg{
+    height: 16px;
+    width: 29px;
+}
+#picture_explore{
+    height: 551px;
+}
+.contaner_picture{
+    flex-direction: column;
+    height: 471px;
+    align-items: center;
+}
+.picture_description__title{
+    padding-bottom: 20px;
+    width: 380px;   
+}
+.picture_description__text{
+    display: none; 
+}
+.pict{
+    margin-top:0;
+    height: 368px;
+    width: 380px;
+}
+.video_description__text,.contaner_slide,.video_player__slide{
+    display: none;
+}
+.contaner_slide420{
+    display: block;
+}
+.video_player__slide768{
+    display: flex;
+    justify-content: space-between;
+}
+.video_player__slide768>img{
+    width: 180px;
+    height: 101px;
+}
+#video_journey{
+    height: 551px;
+}
+.video_player__slider>a{
+    width: 8px;
+    height: 8px;
+}
+.video_player__slider{
+    width: 174px;
+}
+.video_slide{
+    margin-top: 18px;
+    gap: 40px;
+}
+.video_journey__exposition{
+    height: 475px;
+}
+.video_player__slider>svg{
+    width: 7px;
+    height: 8px;
+}
+.next>svg{
+    width: 7px;
+    height: 8px;
+}
+#art_gallery{
+    height: 757px;
+}
+.art_image__gradient{
+    height: 112px;
+    width: 420px;
+}
+.art_image{
+    display: none;
+}
+.art_image_420{
+    display: flex;
+    margin-top: 40px;
+    align-items: flex-end;
+    gap:24px;
+}
+.container_buy_tickets{
+    height: 759px;
+}
+.description_ticket{
+    display: none;
+}
+.description_amount{   
+    width: 175px;
+    align-items: center;
+}
+.container_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    gap: 40px;
+}
+.container_description_img420{
+    display: block;
+}
+.container_description_img1920{
+    display: none;
+}
+.amount_buttom{
+   width: 169px;
+   height: 44px;
+    margin-top: 15px;
+}
+
+.contaner_amount{
+    margin-top: 0px;
+    width: 175px;
+}
+.amount_total{
+    display: flex;
+    margin-top:40px ;
+}
+.description_amount__buttom{
+    margin-top: 40px;
+    font-size: 16px;
+}
+.description_amount__text{
+    margin-top: 20px;
+}
+.description_amount__title,.amount_text,.amount_total__text{
+    line-height:18.75px;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+.contaner_contacts{
+    height: 636px;
+    width: 380px;
+}
+.contacts_contaner{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+.contacts_map{
+    width: 728px;
+    height: 476px;
+    
+}
+.contacts_description__text>p{
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.contacts_description__title,.contacts_description__text{
+    line-height: 18.75px;
+    font-size: 16px;
+}
+.contacts_description__text{
+    
+    margin-top: 40px;
+}
+.end_menu{
+    margin-top: 0px;
+    height: 400px;
+}
+.contaner_end_menu{
+    width: 380px; 
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.end_menu__line{
+    margin-top: 128px;
+    height: 1px;
+    width:420px;
+}
+
+.end_menu__sns{
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin: 208px 0 0 60px;
+    position: absolute;
+}
+.end_menu__logo{
+    display: flex;
+    margin: 40px 0 0;
+    gap: 20px;
+}
+.end_menu__list420>ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0 0;
+    padding: 0px;
+    gap:30px 45px;
+    justify-content: space-between;
+}
+.contacts_map420{
+    display: block;
+}
+.contacts_map{
+    display: none;
+}
+.end_menu__list{
+    display: none; 
+}
+.end_menu__list420{
+    width: 380px;
+    display: block;
+}
+.end_menu__list420>ul>li>a{
+    font-size: 16px;
+    line-height: 18.75px;
+    margin-top: 0px;
+    display: flex;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none; 
+    letter-spacing: 2px;
+    width: 77px;            
+}
+.list-item:nth-child(3n+2) {
+    padding-left: 18px;
+  }
+.end_menu__name{
+    width: 380px;
+    margin: 40px 0 0 8px;
+}
+.menu_name{
+    line-height: 22px;
+    font-size: 16px;
+}
+.menu_name__2{
+    display: none;
+}
